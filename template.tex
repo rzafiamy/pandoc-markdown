@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\providecommand{\tightlist}{\relax}
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{titling} % Package for custom title formatting
+
+\usepackage[a4paper, top=0.8in, right=0.5in, bottom=0.8in, left=0.5in]{geometry}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear default header/footer
+
+% Header settings
+\fancyhead[C]{\textbf{$title$}} % Header title in the center
+
+% Footer settings
+\renewcommand{\footrulewidth}{0.4pt} % Thickness of the footer line
+\fancyfoot[L]{\textit{$author$}} % Footer text on the left
+\fancyfoot[C]{\thepage} % Page number at the center
+\fancyfoot[R]{\today} % Date on the right
+
+
+\begin{document}
+
+\pretitle{\begin{center}\LARGE} % Adjust title formatting
+\posttitle{\par\end{center}\vskip 0.5em} % Adjust title formatting
+
+\title{$title$}
+\author{$author$}
+\date{\today}
+
+\maketitle
+
+\tableofcontents
+
+\clearpage
+
+$body$
+
+\end{document}
+
