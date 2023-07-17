@@ -40,4 +40,12 @@ Once you're in the correct directory, you can use the Pandoc command-line interf
 pandoc [options] input-file -o output-file
 
 ```
+- Replace [options] with any additional options you want to specify for the conversion. For example, you can set the output format, specify a CSS file for styling, or include a table of contents.
+- Replace input-file with the name of your Markdown file.
+- Replace output-file with the desired name and extension for the converted output file.
 
+For example, to convert a Markdown file named example.md to PDF, you can use the following command:
+
+``bash
+pandoc example.md -o example.pdf
+```
