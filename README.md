@@ -2,6 +2,12 @@
 
 Pandoc is a powerful set of open-source command-line tools designed to facilitate document conversion between various markup formats. It acts as a universal document converter, allowing you to transform files from one format to another seamlessly. With Pandoc, you can convert documents written in formats such as Markdown, HTML, LaTeX, Microsoft Word, and many others.
 
+## Preview
+
+![Example Image](preview.png)
+
+![Example Image](preview2.png)
+
 ## Setup 
 
 ### Pre-requisite
