@@ -46,6 +46,6 @@ pandoc [options] input-file -o output-file
 
 For example, to convert a Markdown file named example.md to PDF, you can use the following command:
 
-``bash
+```bash
 pandoc example.md -o example.pdf
 ```
