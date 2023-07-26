@@ -81,3 +81,12 @@ By combining these options and arguments, the Pandoc command will convert the in
 
 Remember to adjust the file names and metadata values as per your specific requirements.
 
+### Use Generator for automation
+
+You can use the script generator.pl in order to generate pdf file of each mardown file present in a folder.
+
+```bash
+mkdir out
+perl generator.pl <FOLDER PATH>
+```
+
